@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ecommerce Website</title>
+    <header>
+    <ul>
+        <li>
+            <a href="./index.html" >HOME</a>
+        </li>
+        <li>
+            <a href="#" >ABOUT</a>
+        </li>
+        <li>
+            <a href="#" >CONTACT</a>
+        </li>
+    </ul>
+</header>
+
+<style>
+    body{
+        width: 100%;
+    }
+    header{
+        
+        background-color: black;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        
+    }
+    header > ul{
+        list-style-type: none;
+        /* background-color: aqua; */
+        /* text-align: center; */
+        display: flex;
+        flex-direction: row;
+        margin-left: 35%;
+        gap: 50px;
+        
+        
+        
+    }
+    a{
+        color: white;
+        /* text-align: center; */
+    }
+    a:hover{
+        background-color: green;
+        color: black;
+    }
+    .parent1{
+        margin-left: 10px;
+        margin-top: 60px;
+        display: flex; 
+        flex-direction: row;
+         gap: 10px;
+         text-align: center;
+         margin-right: 10px;
+    }
+    .parent2{
+        margin-top: 50px;
+        margin-left: 10px;
+        position: relative;
+        gap: 10px;
+        display: flex; 
+        flex-direction: row;
+         gap: 10px;
+         text-align: center;
+         margin-right: 10px;
+    }
+    .parent1 > div:hover{
+        background-color:aqua;
+        box-shadow: 5px 10px 5px ;
+    }
+    .parent2 > div:hover{
+        background-color:aqua;
+        box-shadow: 5px 10px 5px ;
+    }
+
+    .parent1 > div{
+        border: 2px solid;
+        flex-basis: 100%;
+        
+    }
+    .parent2 > div{
+        border: 2px solid;
+        flex-basis: 100%;
+    }
+    .parent1 div p > p{
+        font-weight: bold;
+    }
+    footer{
+        background-color: black;
+        padding: 10px;
+        /* position: fixed; */
+        bottom: 0;
+        width: 100%;
+    }
+    button{
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+    button:hover{
+        background-color: green;
+        color: black;
+    }
+    footer > p{
+        color: white;
+        text-align: center;
+        
+        width: 100%;
+    }
+</style>
+
+</head>
+<body>
+    <div class="parent1" >
+        <div class="child1">
+            <img src="./images/blue_shirt.jpg" alt="blue_shirt_image" />
+            <h1>Shirt</h1>
+            <p>A long- or short-sleeved garment for the upper part of the body, usually lightweight and having a collar and a front opening</p>
+            <p>₹500</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="child2">
+            <img src="./images/watch.jpg" alt="watch_image" />
+            <h1>Wrist Watch</h1>
+            <p>Designed to be worn around the wrist, attached by a watch strap or other type of bracelet, including metal bands, leather straps, or any other kind of bracelet</p>
+            <p>₹5,000</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="child3">
+            <img src="./images/tv.jpg" alt="tv_image" />
+            <h1>Google Tv</h1>
+            <p>Google TV is the new, personalised experience that comes built-in to smart TVs and streaming devices from top brands</p>
+            <p>₹50,000</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="child4">
+            <img src="./images/fan.jpg" alt="fan_image" />
+            <h1>Ceiling Fan</h1>
+            <p>A ceiling fan is one that is mounted on the ceiling of your room, runs on electricity and uses rotating blades which cuts the air to produce airflow</p>
+            <p>₹500</p>
+            <button>Add to Cart</button>
+        </div>
+    </div> 
+        <div class="parent2">
+            <div class="child1">
+                <img src="./images/bat.jpg" alt="bat_image" />
+                <h1>Cricket Bat</h1>
+                <p>A bat is a specially shaped piece of wood that is used for hitting the ball in baseball, softball, or cricket </p>
+                <p>₹1,500</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="child2">
+                <img src="./images/ball2.jpg" alt="ball_image" />
+                <h1>Cricket Ball</h1>
+                <p>The red leather ball is the traditional ball used in test matches and is known for its durability, swing, and seam movement</p>
+                <p>₹900</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="child3">
+                <img src="./images/flower.jpg" alt="flower_image" />
+                <h1>Flower Pot</h1>
+                <p>A container in which flowers and other plants are grown</p>
+                <p>₹150</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="child4">
+                <img src="./images/cctv.jpg" alt="cctv_image" />
+                <h1>CCTV</h1>
+                <p>A container in which flowers and other plants are grown</p>
+                <p>₹3000</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    
+
+    <footer>
+        <p>Ecommerce Website © 2024</p>
+    </footer>
+    
+</body>
+</html>
